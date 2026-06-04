@@ -1,0 +1,15 @@
+adapters/
+experiments/
+data/*.jsonl
+data/*.json
+data/*.csv
+reports/
+logs/
+__pycache__/
+*.pyc
+*.pth
+*.bin
+.env
+*.egg-info/
+dist/
+build/

@@ -1,0 +1,16 @@
+base_model: "meta-llama/Llama-3.1-8b"
+train_file: "data/train.jsonl"
+output_dir: "adapters/exp1"
+
+lora:
+  r: 8
+  alpha: 16
+  dropout: 0.05
+
+training:
+  lr: 2.0e-4
+  epochs: 3
+  batch_size: 8
+  max_length: 512
+  load_in_8bit: true
+  no_fp16: false
