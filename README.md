@@ -1,4 +1,4 @@
-# 🧠 LLM Training Lab
+# 🔬 LLM Training Lab
 
 **Self-contained toolkit for fine-tuning LLMs with LoRA/QLoRA, evaluating adapters with BLEU/ROUGE/perplexity, and running evolutionary hyperparameter search — all from a single config file.**
 
